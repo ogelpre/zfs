@@ -153,6 +153,7 @@ checkbashisms:
 				-o -name 'config' -prune \
 				-o -name 'zed-functions.sh*' -prune \
 				-o -name 'zfs-import*' -prune \
+				-o -name 'zfs-load-key*' -prune \
 				-o -name 'zfs-mount*' -prune \
 				-o -name 'zfs-zed*' -prune \
 				-o -name 'smart' -prune \
